@@ -307,7 +307,7 @@ Regulations are modeled as a **directed graph** where edges represent dependenci
 
 ## 👥 Team
 
-**HEAPIFY — NMIT**
+**HEAPIFY — HackArena 2.0**
 
 ---
 
