@@ -300,8 +300,7 @@ regraph-ai/
 Every compliance assessment runs through two independent rails:
 - **Rail A (LLM):** Groq-powered reasoning with full regulatory context via RAG
 - **Rail B (Deterministic):** Python rule engine with hardcoded legal thresholds
-
-If `|confidence_A - confidence_B| > threshold`, the result is automatically escalated to the HITL queue. This ensures no fully autonomous decision is made when the AI is uncertain.
+ If `|confidence_A - confidence_B| > threshold`, the result is automatically escalated to the HITL queue. This ensures no fully autonomous decision is made when the AI is uncertain.
 
 
 ### Cryptographic Audit Trail (CAAL)
