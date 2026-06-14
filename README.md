@@ -28,7 +28,17 @@ RegGraph AI is a **full-stack autonomous compliance operating system** designed 
 **The core innovation:** Every autonomous decision is verified through a **Dual-Rail Architecture** — an LLM-powered reasoning rail (Rail A) is cross-checked against a deterministic rule engine [...]
 
 ---
-**Demo video:** https://drive.google.com/file/d/1djHr1MN3IEXG5-McdXZwj8YXoBm-ktkx/view?usp=drive_link
+## 🎥 Live Demo
+
+<p align="center">
+  <a href="https://drive.google.com/file/d/1djHr1MN3IEXG5-McdXZwj8YXoBm-ktkx/view?usp=drive_link" target="_blank">
+    <img src="https://img.shields.io/badge/▶%20Watch%20Demo-4285F4?style=for-the-badge&logo=google-drive&logoColor=white" alt="Watch Demo">
+  </a>
+</p>
+
+<p align="center">
+  <b>Click to watch the full demo video</b>
+</p>
 ---
 
 ## 🏗️ Architecture
