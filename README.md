@@ -20,36 +20,46 @@
 
 ---
 
+## 🚀 Projects
+
+- KAGGLE-Wellbore_Geology_Prediction — https://github.com/MUKUL-PRASAD-SIGH/KAGGLE-Wellbore_Geology_Prediction
+  - Short: Wellbore geology prediction pipeline and experiments for subsurface feature classification. Achievement: top-performing models in exploratory experiments and clear reproducible notebooks for preprocessing and feature engineering.
+
+- KAGGLE-F1-race-result-classification — https://github.com/MUKUL-PRASAD-SIGH/KAGGLE-F1-race-result-classification
+  - Short: Classification models that predict F1 race outcomes using race telemetry and historical features. Achievement: high-accuracy baselines and thorough feature importance analysis shared via notebooks.
+
+---
+
 ## 🧠 What is RegGraph AI?
 
-RegGraph AI is a **full-stack autonomous compliance operating system** designed for Indian SMBs. It continuously monitors live regulatory portals (GSTN, EPFO, FSSAI, State PT), detects rule changes in real-time, and automatically cascades the impact across all affected businesses — triggering obligation updates, payroll recalculations, and human-in-the-loop escalation when AI confidence is low.
+RegGraph AI is a **full-stack autonomous compliance operating system** designed for Indian SMBs. It continuously monitors live regulatory portals (GSTN, EPFO, FSSAI, State PT), detects rule change[...] 
 
-**The core innovation:** Every autonomous decision is verified through a **Dual-Rail Architecture** — an LLM-powered reasoning rail (Rail A) is cross-checked against a deterministic rule engine (Rail B). When they disagree, the system **automatically escalates to a human reviewer**, ensuring zero-trust AI compliance.
+**The core innovation:** Every autonomous decision is verified through a **Dual-Rail Architecture** — an LLM-powered reasoning rail (Rail A) is cross-checked against a deterministic rule engine [...]
 
 ---
 
 ## 🏗️ Architecture
 
 ```
-┌────────────────────────────────────────────────────────────────────┐
+┌────────────────────────────────────────────────────────────────�[...]
 │                        NEXT.JS FRONTEND                           │
 │  Landing Page · Dashboard · Compliance Feed · Obligation Graph    │
 │  GST Filing · Payroll · Audit Trail · KG Explorer · Admin Panel   │
 │  HITL Queue · AI Assistant · DPDP Vault                           │
-├────────────────────────────────────────────────────────────────────┤
+├────────────────────────────────────────────────────────────────�[...]
 │                     FASTAPI BACKEND (8001)                         │
 │  /compliance · /gst · /payroll · /audit · /hitl · /admin          │
 │  /knowledge · /assistant · /obligations · /demo                   │
-├──────────────┬──────────────┬──────────────┬──────────────────────┤
+├──────────────┬──────────────┬──────────────┬───────────────────�[...]
 │   IRDA       │   COCE       │   DRCA       │   CAAL Ledger        │
 │  Watcher     │  Cascade     │  Dual-Rail   │  Crypto Audit        │
 │  Agent       │  Engine      │  Classifier  │  Trail               │
-├──────────────┴──────────────┴──────────────┴──────────────────────┤
+├──────────────┴──────────────┴──────────────┴───────────────────�[...]
 │               LANGGRAPH ORCHESTRATOR                              │
 │  IRDA → COCE → DRCA (Rail A + Rail B) → HITL → CAAL              │
-├────────────────────────────────────────────────────────────────────┤
+├────────────────────────────────────────────────────────────────�[...]
 │  PostgreSQL 16  │  Redis 7  │  ChromaDB (RAG)  │  Groq LLM       │
-└────────────────────────────────────────────────────────────────────┘
+└────────────────────────────────────────────────────────────────�[...]
          ↕                           ↕
 ┌─────────────────────┐   ┌──────────────────────┐
 │   MOCK PORTALS      │   │   KNOWLEDGE LAYER    │
@@ -75,7 +85,7 @@ RegGraph AI is a **full-stack autonomous compliance operating system** designed 
 | 6 | **GST Agent** | Filing readiness, obligation tracking, export generation | `services/agents/gst_agent/` |
 | 7 | **Payroll Agent** | PF / ESI / PT / TDS computation via deterministic rule engine | `services/agents/payroll_agent/` |
 
-**Orchestration:** All agents are wired together via `services/agents/orchestrator.py` using **LangGraph** state machines. The pipeline executes: `IRDA → COCE → DRCA → (HITL if divergent) → CAAL`.
+**Orchestration:** All agents are wired together via `services/agents/orchestrator.py` using **LangGraph** state machines. The pipeline executes: `IRDA → COCE → DRCA → (HITL if divergent) ��[...]
 
 ---
 
@@ -222,6 +232,8 @@ Open **http://localhost:3000** → You'll see the animated landing page. Click *
 5. **Compute Payroll** → Select different businesses and click ⚡ Compute to see unique PF/ESI/PT/TDS values
 6. **Explore the Graph** → View the D3.js obligation dependency graph with visible edges and domain-colored nodes
 
+**Demo video:** https://drive.google.com/file/d/1djHr1MN3IEXG5-McdXZwj8YXoBm-ktkx/view?usp=drive_link
+
 ---
 
 ## 📁 Project Structure
@@ -312,13 +324,15 @@ Every agent action is:
 This creates a complete, tamper-evident audit trail suitable for regulatory inspection.
 
 ### Obligation Knowledge Graph
-Regulations are modeled as a **directed graph** where edges represent dependencies (`requires`, `updates`, `invalidates`). When IRDA detects a change, COCE traverses the graph to find all transitively affected obligations.
+Regulations are modeled as a **directed graph** where edges represent dependencies (`requires`, `updates`, `invalidates`). When IRDA detects a change, COCE traverses the graph to find all transit[...]
 
 ---
 
 ## 👥 Team
 
 **HEAPIFY — HackArena 2.0**
+
+**Maintainer & Author:** Mukul Prasad Singh — ML Intern @ FlyRank | GSSoC’26 Mentor (amongst ~135 people selected worldwide) | Research Intern @ IEEE CS
 
 ---
 
