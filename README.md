@@ -23,9 +23,9 @@
 
 ## 🧠 What is RegGraph AI?
 
-RegGraph AI is a **full-stack autonomous compliance operating system** designed for Indian SMBs. It continuously monitors live regulatory portals (GSTN, EPFO, FSSAI, State PT), detects rule change[...] 
+RegGraph AI is a **full-stack autonomous compliance operating system** designed for Indian SMBs. It continuously monitors live regulatory portals (GSTN, EPFO, FSSAI, State PT), detects rule changes in real-time, and automatically cascades the impact across all affected businesses — triggering obligation updates, payroll recalculations, and human-in-the-loop escalation when AI confidence is low.
 
-**The core innovation:** Every autonomous decision is verified through a **Dual-Rail Architecture** — an LLM-powered reasoning rail (Rail A) is cross-checked against a deterministic rule engine [...]
+**The core innovation:** Every autonomous decision is verified through a **Dual-Rail Architecture** — an LLM-powered reasoning rail (Rail A) is cross-checked against a deterministic rule engine (Rail B). When they disagree, the system **automatically escalates to a human reviewer**, ensuring zero-trust AI compliance.
 
 ---
 ## 🎥 Live Demo
