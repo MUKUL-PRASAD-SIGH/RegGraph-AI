@@ -20,15 +20,6 @@
 
 ---
 
-## 🚀 Projects
-
-- KAGGLE-Wellbore_Geology_Prediction — https://github.com/MUKUL-PRASAD-SIGH/KAGGLE-Wellbore_Geology_Prediction
-  - Short: Wellbore geology prediction pipeline and experiments for subsurface feature classification. Achievement: top-performing models in exploratory experiments and clear reproducible notebooks for preprocessing and feature engineering.
-
-- KAGGLE-F1-race-result-classification — https://github.com/MUKUL-PRASAD-SIGH/KAGGLE-F1-race-result-classification
-  - Short: Classification models that predict F1 race outcomes using race telemetry and historical features. Achievement: high-accuracy baselines and thorough feature importance analysis shared via notebooks.
-
----
 
 ## 🧠 What is RegGraph AI?
 
@@ -36,6 +27,8 @@ RegGraph AI is a **full-stack autonomous compliance operating system** designed 
 
 **The core innovation:** Every autonomous decision is verified through a **Dual-Rail Architecture** — an LLM-powered reasoning rail (Rail A) is cross-checked against a deterministic rule engine [...]
 
+---
+**Demo video:** https://drive.google.com/file/d/1djHr1MN3IEXG5-McdXZwj8YXoBm-ktkx/view?usp=drive_link
 ---
 
 ## 🏗️ Architecture
@@ -232,7 +225,6 @@ Open **http://localhost:3000** → You'll see the animated landing page. Click *
 5. **Compute Payroll** → Select different businesses and click ⚡ Compute to see unique PF/ESI/PT/TDS values
 6. **Explore the Graph** → View the D3.js obligation dependency graph with visible edges and domain-colored nodes
 
-**Demo video:** https://drive.google.com/file/d/1djHr1MN3IEXG5-McdXZwj8YXoBm-ktkx/view?usp=drive_link
 
 ---
 
