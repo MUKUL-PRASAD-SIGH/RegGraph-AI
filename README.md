@@ -149,11 +149,11 @@ To ensure reliable compliance operations, RegGraph AI has been rigorously evalua
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/samarthsharma77/HEAPIFY_NMIT.git
-cd regraph-ai
+git clone https://github.com/MUKUL-PRASAD-SIGH/RegGraph-AI
+cd RegGraph-AI
 
 # Frontend
-cd apps/web
+cd frontend
 npm install
 cd ../..
 
