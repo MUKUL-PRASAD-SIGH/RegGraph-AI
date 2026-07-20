@@ -31,7 +31,7 @@ RegGraph AI is a **full-stack autonomous compliance operating system** designed 
 ## 🎥 Live Demo
 
 <p align="center">
-  <a href="https://drive.google.com/file/d/1djHr1MN3IEXG5-McdXZwj8YXoBm-ktkx/view?usp=drive_link" target="_blank">
+  <a href="https://www.youtube.com/watch?v=obgJWt_hpgk" target="_blank">
     <img src="https://img.shields.io/badge/▶%20Watch%20Demo-4285F4?style=for-the-badge&logo=google-drive&logoColor=white" alt="Watch Demo">
   </a>
 </p>
